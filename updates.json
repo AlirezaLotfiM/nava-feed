@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "last_updated": "2026-11-20T14:30:00Z",
+  "app_info": {
+    "name": "نوا | Nava Music",
+    "package_name": "com.damoon.nava.music",
+    "website": "https://nava.alirz.ir",
+    "support_telegram": "https://t.me/damoon_x"
+  },
+  "latest_version": {
+    "version_code": 2010,
+    "version_name": "1.7.5",
+    "release_date": "2026-11-20",
+    "force_update": false,
+    "min_supported_version_code": 1000,
+    "title": "نسخه جدید نوا ۱.۷.۵ منتشر شد ✨",
+    "subtitle": "استودیو استوری مینیمال، فوکوس سه‌خطی شعر و بهبود عملکرد",
+    "changelog": [
+      "✨ اضافه شدن قالب مینیمال متنی استوری (Editorial Card) با ۵ پالت رنگی جذاب",
+      "🎵 نمایش ۳ خطی متن ترانه زنده با افکت فوکوس شناور در صفحه گرامافون",
+      "⚡ بهینه‌سازی سرعت اسکن و بارگذاری آرشیو موسیقی",
+      "🛠 رفع اشکال کنترلرها و لایک در ویجت سینماتیک هوم‌اسکرین",
+      "📱 هماهنگی کامل تم گرادینت گرامافون با تم‌های تیره و روشن برنامه"
+    ],
+    "file_info": {
+      "size_mb": "58.5 MB",
+      "sha256": ""
+    },
+    "links": {
+      "direct": "https://github.com/AlirezaLotfiM/nava-feed/releases/latest/download/app-release.apk",
+      "bazaar": "https://cafebazaar.ir/app/com.damoon.nava.music",
+      "myket": "https://myket.ir/app/com.damoon.nava.music",
+      "github": "https://github.com/AlirezaLotfiM/nava-feed/releases"
+    }
+  },
+  "notifications": [
+    {
+      "id": "notif_editorial_story_202611",
+      "active": true,
+      "priority": "high",
+      "type": "dialog",
+      "category": "feature",
+      "badge_text": "ویژه",
+      "badge_color": "#FF3366",
+      "title": "اشتراک‌گذاری شاعرانه موزیک در استوری!",
+      "subtitle": "قالب جدید و مینیمال استوری متنی به نوا اضافه شد",
+      "message": "از این پس می‌تونید بخش‌های دلخواه از شعر آهنگ رو در قالب کارت‌های شیک و مینیمال با پالت‌های رنگی جذاب و کلیپ صوتی ۱۵ ثانیه‌ای روی اینستاگرام و تلگرام به اشتراک بذارید.",
+      "banner_image_url": "https://raw.githubusercontent.com/AlirezaLotfiM/nava-feed/main/assets/story_banner.png",
+      "action_text": "امتحان استودیو استوری",
+      "action_type": "internal_route",
+      "action_target": "story_studio",
+      "secondary_action_text": "بعداً",
+      "show_once": true,
+      "start_date": "2026-11-20T00:00:00Z",
+      "end_date": "2026-12-30T23:59:59Z",
+      "min_version_code": 1000,
+      "max_version_code": 9999,
+      "platforms": ["android", "windows"]
+    },
+    {
+      "id": "notif_sync_feature_tip_2026",
+      "active": true,
+      "priority": "normal",
+      "type": "banner",
+      "category": "tip",
+      "badge_text": "ترفند",
+      "badge_color": "#00E5FF",
+      "title": "انتقال بی‌سیم موسیقی بین گوشی و کامپیوتر",
+      "subtitle": "بدون کابل USB و با اسکن کد QR، آهنگ‌هات رو همگام کن.",
+      "message": "از منوی تنظیمات یا کتابخانه گزینه همگام‌سازی (Sync) رو انتخاب کن.",
+      "banner_image_url": "",
+      "action_text": "باز کردن Sync",
+      "action_type": "internal_route",
+      "action_target": "sync",
+      "secondary_action_text": "بستن",
+      "show_once": false,
+      "cooldown_hours": 72,
+      "min_version_code": 1000,
+      "platforms": ["android", "windows"]
+    }
+  ],
+  "server_status": {
+    "operational": true,
+    "maintenance_mode": false,
+    "announcement": ""
+  }
+}
