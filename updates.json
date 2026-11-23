@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T14:30:00Z",
+  "last_updated": "2026-11-23T22:25:00Z",
   "app_info": {
     "name": "نوا | Nava Music",
     "package_name": "com.damoon.nava.music",
@@ -8,36 +8,63 @@
     "support_telegram": "https://t.me/damoon_x"
   },
   "latest_version": {
-    "version_code": 2010,
+    "version_code": 2009,
     "version_name": "1.7.5",
-    "release_date": "2026-11-20",
+    "release_date": "2026-11-23",
     "force_update": false,
     "min_supported_version_code": 1000,
     "title": "نسخه جدید نوا ۱.۷.۵ منتشر شد ✨",
-    "subtitle": "استودیو استوری مینیمال، فوکوس سه‌خطی شعر و بهبود عملکرد",
+    "subtitle": "دسترسی سریع Now Playing، تنظیم تاخیر لیریکس و هوشمندسازی کامل میکس‌ها",
     "changelog": [
-      "✨ اضافه شدن قالب مینیمال متنی استوری (Editorial Card) با ۵ پالت رنگی جذاب",
-      "🎵 نمایش ۳ خطی متن ترانه زنده با افکت فوکوس شناور در صفحه گرامافون",
-      "⚡ بهینه‌سازی سرعت اسکن و بارگذاری آرشیو موسیقی",
-      "🛠 رفع اشکال کنترلرها و لایک در ویجت سینماتیک هوم‌اسکرین",
-      "📱 هماهنگی کامل تم گرادینت گرامافون با تم‌های تیره و روشن برنامه"
+      "⚡ ردیف دسترسی سریع (Quick Action Shortcuts) در منوی سه نقطه Now Playing برای افزودن ۱-کلیکه به پلی‌لیست، اکولایزر، تایمر خواب، استوری و اشتراک‌گذاری",
+      "⏱ ابزار کاربردی تنظیم تاخیر زمان کل متن ترانه (Global Sync Offset) در ویرایشگر لیریکس با دکمه‌های گام ۱۰۰ms و ۵۰۰ms و امکان بازنشانی",
+      "📂 قابلیت مرتب‌سازی پیشرفته آهنگ‌ها در کتابخانه بر اساس تاریخ ویرایش فایل خود آهنگ (File Modified Date)",
+      "🧠 بازطراحی اساسی الگوریتم Made For You و میکس‌های روزانه با تنوع هنرمندان و کشف هوشمند قطعات جدید",
+      "💪 تفکیک دقیق ریتم و تمپو در Workout Energy و مود میکس‌های هوش مصنوعی (حذف قطعی قطعات کند و آرام)",
+      "❌ امکان حذف آنی آهنگ از مود میکس‌ها (Mood Mixes) همراه با به‌روزرسانی لحظه‌ای پایگاه‌داده",
+      "🎛 بازنویسی معماری اکولایزر و رفع اشکال کامل اعمال فیلترهای صوتی mpv ۱۰ بانده",
+      "☑ امکان انتخاب و لغو انتخاب دسته‌جمعی آهنگ‌ها در Smart Mix و هماهنگی کامل طراحی با Mood Mix AI"
     ],
     "file_info": {
-      "size_mb": "58.5 MB",
-      "sha256": ""
+      "size_mb": "58.8 MB",
+      "sha256": "5AA0D3CEA774DFAAE3D2B40D2E148B81A1CA5029009FED76D02EB945FED4966A"
     },
     "links": {
-      "direct": "https://github.com/AlirezaLotfiM/nava-feed/releases/latest/download/app-release.apk",
+      "direct": "https://github.com/AlirezaLotfiM/Nava/releases/download/v1.7.5/nava-1.7.5-universal.apk",
       "bazaar": "https://cafebazaar.ir/app/com.damoon.nava.music",
       "myket": "https://myket.ir/app/com.damoon.nava.music",
-      "github": "https://github.com/AlirezaLotfiM/nava-feed/releases"
+      "github": "https://github.com/AlirezaLotfiM/Nava/releases/tag/v1.7.5"
     }
   },
   "notifications": [
     {
-      "id": "notif_editorial_story_202611",
+      "id": "notif_v175_release_202611",
       "active": true,
       "priority": "high",
+      "type": "dialog",
+      "category": "feature",
+      "badge_text": "آپدیت جدید ۱.۷.۵",
+      "badge_color": "#00B0FF",
+      "title": "به‌روزرسانی نوا نسخه ۱.۷.۵ منتشر شد 🎉",
+      "subtitle": "دسترسی سریع منوی پخش، سینک زمان‌بندی لیریکس و اصلاح هوشمند میکس‌ها",
+      "message": "در این نسخه دسترسی ۱-کلیکه به افزودن پلی‌لیست در منوی Now Playing اضافه شد، ابزار تنظیم تاخیر کل لیریکس به ادیتور آمد، سورت بر اساس تاریخ تغییر فایل‌ها اضافه شد، اکولایزر به طور کامل بازنویسی شد و الگوریتم Made For You و Mood Mixes هوشمندتر گردید.",
+      "banner_image_url": "",
+      "action_text": "دانلود مستقیم آپدیت (Universal)",
+      "action_type": "url",
+      "action_target": "https://github.com/AlirezaLotfiM/Nava/releases/download/v1.7.5/nava-1.7.5-universal.apk",
+      "secondary_action_text": "بعداً",
+      "show_once": false,
+      "cooldown_hours": 24,
+      "start_date": "2026-11-23T00:00:00Z",
+      "end_date": "2026-12-30T23:59:59Z",
+      "min_version_code": 1000,
+      "max_version_code": 2008,
+      "platforms": ["android", "windows"]
+    },
+    {
+      "id": "notif_editorial_story_202611",
+      "active": true,
+      "priority": "normal",
       "type": "dialog",
       "category": "feature",
       "badge_text": "ویژه",
@@ -49,7 +76,7 @@
       "action_text": "امتحان استودیو استوری",
       "action_type": "internal_route",
       "action_target": "story_studio",
-      "secondary_action_text": "بعداً",
+      "secondary_action_text": "بستن",
       "show_once": true,
       "start_date": "2026-11-20T00:00:00Z",
       "end_date": "2026-12-30T23:59:59Z",
@@ -60,7 +87,7 @@
     {
       "id": "notif_sync_feature_tip_2026",
       "active": true,
-      "priority": "normal",
+      "priority": "low",
       "type": "banner",
       "category": "tip",
       "badge_text": "ترفند",
